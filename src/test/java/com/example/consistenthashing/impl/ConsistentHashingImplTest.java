@@ -1,10 +1,10 @@
 package com.example.consistenthashing.impl;
 
-import com.example.consistenthashing.ql.ConsistentHashing;
-import com.example.consistenthashing.ql.Key;
+import com.example.consistenthashing.ql.service.ConsistentHashing;
+import com.example.consistenthashing.ql.service.Key;
 import com.example.consistenthashing.ql.config.HashConfig;
 import com.example.consistenthashing.ql.dto.ServiceZone;
-import com.example.consistenthashing.ql.impl.PhySicNode;
+import com.example.consistenthashing.ql.dto.PhySicNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

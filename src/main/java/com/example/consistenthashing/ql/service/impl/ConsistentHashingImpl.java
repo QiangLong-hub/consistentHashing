@@ -1,8 +1,10 @@
-package com.example.consistenthashing.ql.impl;
+package com.example.consistenthashing.ql.service.impl;
 
-import com.example.consistenthashing.ql.ConsistentHashing;
-import com.example.consistenthashing.ql.Key;
+import com.example.consistenthashing.ql.service.ConsistentHashing;
+import com.example.consistenthashing.ql.service.Key;
 import com.example.consistenthashing.ql.config.HashConfig;
+import com.example.consistenthashing.ql.dto.PhySicNode;
+import com.example.consistenthashing.ql.dto.VirtualNode;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

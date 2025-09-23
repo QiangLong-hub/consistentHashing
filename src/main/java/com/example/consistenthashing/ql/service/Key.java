@@ -1,4 +1,4 @@
-package com.example.consistenthashing.ql;
+package com.example.consistenthashing.ql.service;
 
 /**
  * 键-作为哈希的输入

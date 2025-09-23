@@ -1,4 +1,4 @@
-package com.example.consistenthashing.ql;
+package com.example.consistenthashing.ql.service;
 
 /**
  * 节点

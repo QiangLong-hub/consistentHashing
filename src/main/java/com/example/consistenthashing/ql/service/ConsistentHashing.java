@@ -1,6 +1,6 @@
-package com.example.consistenthashing.ql;
+package com.example.consistenthashing.ql.service;
 
-import com.example.consistenthashing.ql.impl.PhySicNode;
+import com.example.consistenthashing.ql.dto.PhySicNode;
 
 import java.util.concurrent.ConcurrentHashMap;
 
