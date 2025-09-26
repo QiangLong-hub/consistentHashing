@@ -2,7 +2,6 @@ package com.example.consistenthashing.ql.dto;
 
 import com.example.consistenthashing.ql.service.Key;
 import com.example.consistenthashing.ql.service.Node;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.HashSet;
@@ -13,18 +12,15 @@ import java.util.HashSet;
  * @author longqiang
  * @since 2025-09-22
  */
-@AllArgsConstructor
 @Getter
-public class PhySicNode implements Node {
-    private Key key;
-
+public class PhySicNode extends Node {
     /**
      * 虚拟节点
      */
     private HashSet<VirtualNode> vNodes;
 
-    @Override
-    public Key key() {
-        return key;
+    public PhySicNode(Key key, HashSet<VirtualNode> vNodes) {
+        super(key);
+        this.vNodes = vNodes;
     }
 }
