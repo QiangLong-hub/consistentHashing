@@ -1,5 +1,6 @@
-package com.example.consistenthashing.ql.service;
+package com.example.consistenthashing.ql.dto;
 
+import com.example.consistenthashing.ql.service.Key;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

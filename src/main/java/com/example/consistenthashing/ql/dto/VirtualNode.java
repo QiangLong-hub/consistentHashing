@@ -1,7 +1,6 @@
 package com.example.consistenthashing.ql.dto;
 
 import com.example.consistenthashing.ql.service.Key;
-import com.example.consistenthashing.ql.service.Node;
 
 import lombok.Getter;
 
